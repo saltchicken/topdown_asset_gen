@@ -42,7 +42,7 @@ def generate_tilesheet():
     draw.rectangle([34, 34, 61, 61], fill=(105, 105, 105, 255), outline=(169, 169, 169, 255))
 
     # Save the output
-    filename = "tiles.png"
+    filename = "../assets/tiles.png"
     img.save(filename)
     print(f"Successfully generated 2x2 tilemap '{filename}'")
 

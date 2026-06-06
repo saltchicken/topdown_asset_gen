@@ -66,7 +66,7 @@ def generate_spritesheet():
                 elif direction == "right":
                     draw.rectangle([x + 18 + walk_offset, y + 12, x + 24 + walk_offset, y + 20], fill=indicator_color)
 
-        filename = f"player_{action_name}.png"
+        filename = f"../assets/player_{action_name}.png"
         img.save(filename)
         print(f"Successfully generated 4x4 '{filename}'")
 
