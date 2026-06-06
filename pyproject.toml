@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "topdown-asset-gen"
+version = "0.1.0"
+description = "Asset generation scripts for 2D top-down game sprites and tilesets."
+requires-python = ">=3.8"
+dependencies = [
+    "Pillow>=9.0.0"
+]
