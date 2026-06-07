@@ -49,7 +49,7 @@ def generate_spritesheet(prefix, color_palette):
 
                 padding = 6 + breath_offset
                 draw.ellipse(
-                    [x + padding, y + padding, x + FRAME_WIDTH - padding, y + FRAME_HEIGHT - padding],
+                    [x + padding, y + padding, x + FRAME_WIDTH - padding - 1, y + FRAME_HEIGHT - padding - 1],
                     fill=color
                 )
 
